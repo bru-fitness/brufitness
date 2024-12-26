@@ -1,0 +1,84 @@
+
+
+/* Layout Container */
+.container-layout {
+    display: flex;
+    margin-top: 60px; /* เพื่อไม่ให้ทับกับ Topbar */
+    
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #ceecf8;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .user-info {
+    text-align: center;
+}
+
+.sidebar .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.sidebar .btn {
+    width: 100%;
+    margin: 5px 0;
+    background-color: #b6e8ff;
+    color: rgb(87, 85, 85);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sidebar .menu-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.sidebar .menu-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+/* Main Content */
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.main-content .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.main-content .form-control {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,103 @@
+/*------------------------------------------------------------------
+    File Name: color_2.css
+-------------------------------------------------------------------*/
+/* แถบบน */
+.topbar .navbar {
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(248, 250, 252, 0.901);
+}
+
+/* โลโก้ */
+.sidebar_user_info {
+    background: #EAFCFC;
+}
+
+.sidebar_toggle {
+    background: #EAFCFC;
+}
+
+/* bgตรงชื่อผู้เข้าใช้ */
+.icon_info ul.user_profile_dd>li {
+    background: #ffffff;
+}
+
+.icon_info ul.user_profile_dd>li>a>span {
+    text-align: #000000;
+}
+
+.icon_info ul.notification i {
+    color: #222;
+}
+
+.icon_info span.badge {
+    background: #c9e9f2;
+}
+
+.icon_info ul li a {
+    color: #000000;
+}
+
+.user_info h6 {
+    color: #000000;
+}
+
+.counter_section .counter_no p.total_no {
+    color: #000000;
+}
+
+.counter_section .counter_no p.head_couter {
+    color: rgba(255, 255, 255, .7);
+}
+
+/* ส่วนระดับผู้ใช้ */
+#sidebar h4 {
+    background: #f3f3f3;
+    color: #222;
+    border-bottom: none;
+}
+
+/* แถบข้าง */
+#sidebar {
+    background-color: #EAFCFC;
+    background-image: url('images/layout_img/pattern_h.png');
+}
+
+#sidebar ul.components ul {
+    background: #EAFCFC;
+    padding: 0;
+}
+
+#sidebar ul.components li ul li a {
+    border-top: solid #ddd 1px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#sidebar ul li a {
+    color: #222;
+}
+
+#sidebar ul.components ul li a {
+    color: #333;
+}
+
+#sidebar ul.components ul li a:hover {
+    color: #3376a3;
+}
+
+#sidebar ul li a:hover,
+#sidebar ul li a:focus {
+    color: #222;
+}
+
+.dark_bg {
+    background: #EAFCFC;
+}
+
+.progress.skill-bar .progress-bar {
+    background-color: #EAFCFC;
+}
+
+.dash_head {
+    background-color: #EAFCFC;
+}

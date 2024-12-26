@@ -1,0 +1,53 @@
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #81bce6;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0); /* Sidebar ปกติอยู่ทางซ้าย */
+}
+
+#sidebar.hidden {
+    transform: translateX(-100%); /* ซ่อน Sidebar โดยเลื่อนไปซ้าย */
+}
+#sidebar.active+#content .topbar {
+    padding-left: 90px;
+}
+
+/* การจัดการพื้นที่ Content */
+#content {
+    transition: margin-left 0.3s ease-in-out;
+    margin-left: 250px;
+}
+
+#content.full {
+    margin-left: 0; /* เนื้อหาขยายเต็มหน้าจอเมื่อ Sidebar ซ่อน */
+}
+.inner_container {
+    margin-left: 250px;
+    transition: all 0.3s ease;
+}
+
+.inner_container.sidebar-hidden {
+    margin-left: 0; /* ลดระยะ Content เมื่อ Sidebar ถูกซ่อน */
+}
+
+.sidebar_toggle {
+    border: none;
+    padding: 14px 26px 14px;
+    font-size: 21px;
+    background: #6cb6f3;
+    margin-right: 0;
+    cursor: pointer;
+    float: left;
+}
+.bottom_sidebar ul li {
+    float: left;
+    width: 50%;
+    list-style: none;
+}
+#sidebar.active+#content {
+    padding-left: 115px;
+}

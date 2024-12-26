@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 150%;
+    margin-top: 40px;
+    /* เพิ่ม margin-top เพื่อไม่ให้ topbar บัง */
+}
+
+.form-container {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    /* Ensure padding is included in the element's total width and height */
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    /* Align items to the right */
+}
+
+.button-container .btn {
+    font-size: 1.0rem;
+    /* Increase button text size */
+    padding: 10px 20px;
+    /* Increase button padding */
+}
+
+.content {
+    padding-top: 20px;
+    /* เพิ่มระยะห่างจากด้านบน */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    /* จัดกึ่งกลางแนวนอน */
+    align-items: center;
+    /* จัดกึ่งกลางแนวตั้ง */
+    height: 250px;
+    /* ตั้งค่าความสูงตามต้องการ */
+    margin-bottom: 20px;
+    /* ระยะห่างระหว่างรูปภาพและ input file */
+}
+
+.image-container img {
+    max-width: 200px;
+    /* ตั้งค่าความกว้างสูงสุดของรูปภาพ */
+    max-height: 200px;
+    /* ตั้งค่าความสูงสูงสุดของรูปภาพ */
+    object-fit: contain;
+    /* ทำให้รูปภาพอยู่ในขนาดของคอนเทนเนอร์ */
+}
+
+.file-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* ทำให้เนื้อหาภายในคอนเทนเนอร์จัดชิดกึ่งกลาง */
+    gap: 10px;
+    /* เว้นระยะห่างระหว่างปุ่ม */
+    margin-top: 10px;
+}
+
+.file-input-container input[type="file"] {
+    display: none;
+    /* ซ่อน input file */
+}
+
+.file-input-container button {
+    display: inline-block;
+}

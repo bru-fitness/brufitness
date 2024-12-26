@@ -1,0 +1,61 @@
+/* การกำหนดขนาดของการ์ด */
+.trainer .card {
+    width: 250px; /* กำหนดความกว้าง */
+    height: auto; /* ให้ปรับตามเนื้อหา */
+    margin: 10px auto; /* จัดให้การ์ดอยู่ตรงกลาง */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    border-radius: 10px; /* มุมโค้ง */
+    overflow: hidden; /* ซ่อนส่วนที่เกินออกมาจากการ์ด */
+}
+
+/* ปรับรูปภาพในการ์ด */
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd; /* เส้นขอบล่าง */
+}
+
+/* การกำหนดระยะขอบด้านในของการ์ด */
+.trainer .card-body {
+    padding: 50px;
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+}
+
+/* สไตล์หัวข้อการ์ด */
+.trainer .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* สไตล์ข้อความภายใน */
+.trainer .card-body p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+/* ดาวรีวิว */
+.trainer .rating-stars i {
+    margin-right: 2px;
+}
+
+/* Hover Effect */
+.trainer .card:hover {
+    transform: translateY(-5px); /* การ์ดเลื่อนขึ้นเล็กน้อย */
+    transition: 0.3s ease-in-out; /* เพิ่มความลื่น */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* เงาเข้มขึ้นเมื่อ Hover */
+}
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+#TrainerCards {
+    row-gap: 20px; /* ระยะห่างระหว่างแถว */
+    column-gap: 80px; /* ระยะห่างระหว่างการ์ดในแถวเดียวกัน */
+}
+
