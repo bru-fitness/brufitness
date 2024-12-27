@@ -396,6 +396,9 @@ if (isset($row['recorddate']) && !empty($row['recorddate'])) {
                                 <a class="dropdown-item active" href="users.php"><i class="fas fa-user-cog"></i><span>ข้อมูลผู้ใช้ระบบ</span></a>
                             </li>
                             <li>
+                                <a href="service.php"><i class="fa fa-calendar-check-o"></i><span>การเข้าใช้บริการ</span></a>
+                            </li>
+                            <li>
                                 <a href="payrate.php"><i class="fas fa-hand-holding-usd"></i>
                                     <span>อัตราการชำระเงิน</span></a>
                             </li>
@@ -405,10 +408,7 @@ if (isset($row['recorddate']) && !empty($row['recorddate'])) {
                         <a href="#report" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle"><i
                                 class="fa fa-newspaper-o"></i> <span>รายงาน</span></a>
                         <ul class="collapse list-unstyled" id="report">
-                            <li>
-                                <a href="report_service.php" aria-current="true"><i
-                                        class="fa fa-calendar-check-o"></i><span>การเข้าใช้บริการ</span></a>
-                            </li>
+
                             <li>
                                 <a href="report_signup.php"><i class="fas fa-user-check"></i>
                                     <span>การสมัครสมาชิก</span></a>

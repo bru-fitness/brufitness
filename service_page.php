@@ -216,6 +216,9 @@ if ($result) {
                                 <a href="users.php"><i class="fas fa-user-cog"></i><span>ข้อมูลผู้ใช้ระบบ</span></a>
                             </li>
                             <li>
+                                <a href="service.php"><i class="fa fa-calendar-check-o"></i><span>การเข้าใช้บริการ</span></a>
+                            </li>
+                            <li>
                                 <a href="payrate.php"><i class="fas fa-hand-holding-usd"></i> <span>อัตราการชำระเงิน</span></a>
                             </li>
                         </ul>
@@ -223,9 +226,6 @@ if ($result) {
                     <li class="active">
                         <a href="#report" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle"><i class="fa fa-newspaper-o"></i> <span>รายงาน</span></a>
                         <ul class="collapse list-unstyled" id="report">
-                            <li>
-                                <a href="report_service.php"><i class="fa fa-calendar-check-o"></i><span>การเข้าใช้บริการ</span></a>
-                            </li>
                             <li>
                                 <a href=".php"><i class="fas fa-user-check"></i> <span>การสมัครสมาชิก</span></a>
                             </li>
